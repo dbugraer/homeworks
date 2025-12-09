@@ -9,6 +9,8 @@ public class KartezyenBolgeTayini {
         System.out.print("Kac adet nokta cifti gireceksiniz ? : ");
         int n = input.nextInt();
 
+        System.out.println("------------------------------------");
+
         int[] xDizisi = new int[n];
         int[] yDizisi = new int[n];
 
@@ -21,6 +23,8 @@ public class KartezyenBolgeTayini {
             System.out.print("y : ");
             yDizisi[i] = input.nextInt();
         }
+
+        System.out.println("------------------------------------");
 
         for (int i = 0; i < n; i++) {
             int x = xDizisi[i];
@@ -43,3 +47,4 @@ public class KartezyenBolgeTayini {
         }
     }
 }
+
